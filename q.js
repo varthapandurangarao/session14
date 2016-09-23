@@ -18,7 +18,7 @@ if(queryparams.hasOwnproperty('n') && queryparams.n.length > 0){
 	});
 }
 
-//valdation price
+//valdation price using
 if((queryparams.hasOwnproperty('max') && queryparams.max.length > 0 ) && 
 	(queryparams.hasOwnproperty('min') && queryparams.min.length > 0 )){
 
